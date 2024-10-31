@@ -41,7 +41,7 @@ const SideBarkLink = ({
     )
 }
 
-const Sidebar = (props: Props) => {
+const Sidebar = () => {
 
 const dispatch = useAppDispatch();
 const isSidebarCollapsed = useAppSelector(
